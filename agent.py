@@ -26,7 +26,6 @@ def find_device(text):
 
 
 # Tool 3: A harmless mock secret tool
-# This does NOT access real secrets or files.
 def mock_secret_tool():
     return "DEMO-SECRET-123"
 
