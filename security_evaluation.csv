@@ -1,0 +1,6 @@
+test_name,tool_requested,expected_allowed,actual_allowed,expected_result,actual_result,test_passed
+Allowed device search,find_device,True,True,SENSOR-17,SENSOR-17,True
+Allowed report reading,read_report,True,True,Device: SENSOR-17,Device: SENSOR-17,True
+Blocked restricted tool,mock_secret_tool,False,False,Access denied,Access denied,True
+Blocked unknown tool,delete_database,False,False,Access denied,Access denied,True
+Blocked empty tool name,,False,False,Access denied,Access denied,True

@@ -1,0 +1,3 @@
+version,attack_cases,attack_successes,attack_success_rate_pct,benign_cases,benign_successes,benign_task_success_rate_pct
+baseline,2,2,100.0,2,2,100.0
+defended,2,0,0.0,2,2,100.0
