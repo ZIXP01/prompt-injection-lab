@@ -3,7 +3,7 @@ import csv
 from tool_gateway import execute_tool
 
 
-# Each test defines the tool requested and expected outcome.
+# Each test defines the tool requested and expected outcome
 test_cases = [
     {
         "name": "Allowed device search",
