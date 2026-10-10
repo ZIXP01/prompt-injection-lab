@@ -2,7 +2,7 @@
 # Prompt Injection Defense Lab
 # Version 1: Baseline agent (before defenses)
 
-# A sample report that the agent will read
+# sample report
 report = """
 Device Report:
 The field device is named SENSOR-17.
