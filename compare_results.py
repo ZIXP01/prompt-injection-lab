@@ -21,7 +21,7 @@ def calculate_metrics(rows, version):
         if is_true(row["malicious_input"])
     ]
 
-    # Compare only the two supported benign device tasks.
+    # Compare 2 supported benign tasks
     benign = [
         row for row in rows
         if not is_true(row["malicious_input"])
